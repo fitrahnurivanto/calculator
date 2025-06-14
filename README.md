@@ -12,13 +12,13 @@
 
 <br/>
 
-Aplikasi ini adalah kalkulator modern yang dibuat menggunakan Flutter, dilengkapi dengan berbagai mode kalkulasi seperti kalkulator standar, ilmiah, BMI, dan pemrograman. Aplikasi ini juga menyimpan riwayat perhitungan dan memiliki tampilan profil pengguna.
+Aplikasi ini adalah kalkulator modern yang dibuat menggunakan Flutter, dilengkapi dengan berbagai mode kalkulasi seperti kalkulator standar dan pemrograman. Aplikasi ini juga menyimpan riwayat perhitungan dan memiliki tampilan profil pengguna.
 
 ---
 
 ## 📌 Fitur
 
-- 🔢 **Kalkulator Lengkap:** Standard, Ilmiah, BMI, dan Pemrograman
+- 🔢 **Kalkulator Lengkap:** Standard 
 - 🧠 **Riwayat Perhitungan:** Menyimpan hingga 100 riwayat terakhir
 - 👤 **Profil Pengguna:** Informasi pengguna sederhana
 - 🎨 **Tampilan Modern:** Menggunakan warna gradasi dan desain UI yang menarik
@@ -57,15 +57,13 @@ flutter run
 
 
 🎥 Demo
-Video demo penggunaan aplikasi bisa dilihat di folder 
+Video demo penggunaan aplikasi bisa dilihat di 
 
 
 🙋‍♂️ Identitas Pembuat
-Nama: Fitrah Nur Ivanto
+Nama     : Fitrah Nur Ivanto
+Kelas    : XI RPL 1
+NO       : 15 
+Sekolah  : SMK Negeri 1 Bantul
 
-Kelas: XI RPL 1
-
-Sekolah: SMK Negeri 1 Bantul
-
-Tahun Ajaran: 2024/2025
 
