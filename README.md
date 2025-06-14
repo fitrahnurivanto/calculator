@@ -41,7 +41,7 @@ Aplikasi ini adalah kalkulator modern yang dibuat menggunakan Flutter, dilengkap
 1. Pastikan Flutter sudah terinstal di komputer. Jika belum, ikuti panduan di [flutter.dev](https://flutter.dev/docs/get-started/install).
 2. Clone repository ini:
    ```bash
-   git clone https://github.com/fitrahnurivanto/kalkulator.git
+   git clone https://github.com/fitrahnurivanto/calkulator.git
    cd kalkulator
 
 3.Instal semua dependensi:
