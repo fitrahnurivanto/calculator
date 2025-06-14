@@ -57,7 +57,7 @@ flutter run
 
 
 🎥 Demo
-Video demo penggunaan aplikasi bisa dilihat di 
+Video demo penggunaan aplikasi bisa dilihat di https://youtu.be/DohupxmBco8
 
 
 🙋‍♂️ Identitas Pembuat
