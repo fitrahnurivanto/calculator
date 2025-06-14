@@ -1,137 +1,71 @@
 <div align="center">
-  <h1 align="center">Papermark</h1>
-  <h3>The open-source DocSend alternative.</h3>
+  <h1 align="center">Aplikasi Kalkulator Flutter</h1>
+  <h3>Aplikasi Kalkulator Multifungsi Berbasis Flutter</h3>
 
-<a target="_blank" href="https://www.producthunt.com/posts/papermark-3?utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_souce=badge-papermark"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=411605&amp;theme=light&amp;period=daily" alt="Papermark - The open-source DocSend alternative | Product Hunt" style="width:250px;height:40px"></a>
-
-</div>
-
-<div align="center">
-  <a href="https://www.papermark.com">papermark.com</a>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://github.com/mfts/papermark/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mfts/papermark"></a>
-  <a href="https://twitter.com/papermarkio"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/papermarkio"></a>
-  <a href="https://github.com/mfts/papermark/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple"></a>
+  <a href="https://github.com/fitrahnurivanto/kalkulator">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/fitrahnurivanto/kalkulator">
+  </a>
+  <a href="https://github.com/fitrahnurivanto/kalkulator/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-orange">
+  </a>
 </div>
 
 <br/>
 
-Papermark is the open-source document-sharing alternative to DocSend, featuring built-in analytics and custom domains.
+Aplikasi ini adalah kalkulator modern yang dibuat menggunakan Flutter, dilengkapi dengan berbagai mode kalkulasi seperti kalkulator standar, ilmiah, BMI, dan pemrograman. Aplikasi ini juga menyimpan riwayat perhitungan dan memiliki tampilan profil pengguna.
 
-## Features
+---
 
-- **Shareable Links:** Share your documents securely by sending a custom link.
-- **Custom Branding:** Add a custom domain and your own branding.
-- **Analytics:** Gain insights through document tracking and soon page-by-page analytics.
-- **Self-hosted, Open-source:** Host it yourself and customize it as needed.
+## 📌 Fitur
 
-## Demo
+- 🔢 **Kalkulator Lengkap:** Standard, Ilmiah, BMI, dan Pemrograman
+- 🧠 **Riwayat Perhitungan:** Menyimpan hingga 100 riwayat terakhir
+- 👤 **Profil Pengguna:** Informasi pengguna sederhana
+- 🎨 **Tampilan Modern:** Menggunakan warna gradasi dan desain UI yang menarik
 
-![Papermark Welcome GIF](.github/images/papermark-welcome.gif)
+---
 
-## Tech Stack
+## 💻 Software yang Digunakan
 
-- [Next.js](https://nextjs.org/) – Framework
-- [TypeScript](https://www.typescriptlang.org/) – Language
-- [Tailwind](https://tailwindcss.com/) – CSS
-- [shadcn/ui](https://ui.shadcn.com) - UI Components
-- [Prisma](https://prisma.io) - ORM [![Made with Prisma](https://made-with.prisma.io/dark.svg)](https://prisma.io)
-- [PostgreSQL](https://www.postgresql.org/) - Database
-- [NextAuth.js](https://next-auth.js.org/) – Authentication
-- [Tinybird](https://tinybird.co) – Analytics
-- [Resend](https://resend.com) – Email
-- [Stripe](https://stripe.com) – Payments
-- [Vercel](https://vercel.com/) – Hosting
+- [Flutter SDK](https://flutter.dev) – Framework utama
+- [Dart](https://dart.dev) – Bahasa pemrograman
+- [VS Code](https://code.visualstudio.com/) – Code editor
+- [Git](https://git-scm.com/) – Kontrol versi
+- [Shared Preferences](https://pub.dev/packages/shared_preferences) – Penyimpanan lokal
+- Android Emulator atau perangkat Android untuk menjalankan aplikasi
 
-## Getting Started
+---
 
-### Prerequisites
+## ⚙️ Cara Instalasi
 
-Here's what you need to run Papermark:
+1. Pastikan Flutter sudah terinstal di komputer. Jika belum, ikuti panduan di [flutter.dev](https://flutter.dev/docs/get-started/install).
+2. Clone repository ini:
+   ```bash
+   git clone https://github.com/fitrahnurivanto/kalkulator.git
+   cd kalkulator
 
-- Node.js (version >= 18.17.0)
-- PostgreSQL Database
-- Blob storage (currently [AWS S3](https://aws.amazon.com/s3/) or [Vercel Blob](https://vercel.com/storage/blob))
-- [Resend](https://resend.com) (for sending emails)
+3.Instal semua dependensi:
 
-### 1. Clone the repository
+flutter pub get
 
-```shell
-git clone https://github.com/mfts/papermark.git
-cd papermark
-```
 
-### 2. Install npm dependencies
+▶️ Cara Menjalankan
+.Jalankan emulator atau hubungkan perangkat Android ke komputer.
 
-```shell
-npm install
-```
+2.Jalankan aplikasi:
+flutter run
 
-### 3. Copy the environment variables to `.env` and change the values
 
-```shell
-cp .env.example .env
-```
+🎥 Demo
+Video demo penggunaan aplikasi bisa dilihat di folder 
 
-### 4. Initialize the database
 
-```shell
-npm run dev:prisma
-```
+🙋‍♂️ Identitas Pembuat
+Nama: Fitrah Nur Ivanto
 
-### 5. Run the dev server
+Kelas: XI RPL 1
 
-```shell
-npm run dev
-```
+Sekolah: SMK Negeri 1 Bantul
 
-### 6. Open the app in your browser
+Tahun Ajaran: 2024/2025
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Tinybird Instructions
-
-To prepare the Tinybird database, follow these steps:
-
-0. We use `pipenv` to manage our Python dependencies. If you don't have it installed, you can install it using the following command:
-   ```sh
-   pkgx pipenv
-   ```
-1. Download the Tinybird CLI from [here](https://www.tinybird.co/docs/cli.html) and install it on your system.
-2. After authenticating with the Tinybird CLI, navigate to the `lib/tinybird` directory:
-   ```sh
-   cd lib/tinybird
-   ```
-3. Push the necessary data sources using the following command:
-   ```sh
-   tb push datasources/*
-   tb push endpoints/get_*
-   ```
-4. Don't forget to set the `TINYBIRD_TOKEN` with the appropriate rights in your `.env` file.
-
-#### Updating Tinybird
-
-```sh
-pipenv shell
-## start: pkgx-specific
-cd ..
-cd papermark
-## end: pkgx-specific
-pipenv update tinybird-cli
-```
-
-## Contributing
-
-Papermark is an open-source project, and we welcome contributions from the community.
-
-If you'd like to contribute, please fork the repository and make any changes you'd like. Pull requests are warmly welcome.
-
-### Our Contributors ✨
-
-<a href="https://github.com/mfts/papermark/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mfts/papermark" />
-</a>
