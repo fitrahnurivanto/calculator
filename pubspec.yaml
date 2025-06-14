@@ -1,0 +1,47 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+# Mencegah paket ini dipublikasikan ke pub.dev secara tidak sengaja.
+publish_to: 'none' 
+
+# Versi aplikasi
+version: 1.0.0+1
+
+# Versi Dart yang didukung
+environment:
+  sdk: '>=3.6.1 <4.0.0'
+
+# Dependensi utama
+dependencies:
+  flutter_native_splash: ^2.4.4
+  math_expressions: ^2.3.0
+  shared_preferences: ^2.0.8
+  flutter:
+    sdk: flutter
+
+  # Ikon bergaya iOS
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Set linting untuk memastikan kualitas kode yang baik
+  flutter_lints: ^5.0.0
+
+# Pengaturan khusus untuk Flutter
+flutter:
+  uses-material-design: true
+
+  # Tambahkan aset jika a
+  # assets:
+  #   - assets/images/logo.png
+  #   - assets/icons/
+
+  # Tambahkan font kustom jika diperlukan
+  # fonts:
+  #   - family: MyCustomFont
+  #     fonts:
+  #       - asset: assets/fonts/MyCustomFont-Regular.ttf
+  #       - asset: assets/fonts/MyCustomFont-Bold.ttf
+  #         weight: 700
